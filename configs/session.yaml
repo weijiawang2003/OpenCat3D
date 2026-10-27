@@ -1,0 +1,11 @@
+defaults:
+  - default
+  - _self_
+
+project:
+  mode: "session"
+
+preprocess:
+  max_selected_frames: 32
+  min_selected_frames: 12
+

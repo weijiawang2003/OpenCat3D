@@ -1,0 +1,120 @@
+schema_version: "1.0"
+
+project:
+  project_id: "demo_cat"
+  mode: "album"
+  seed: 20260625
+  work_dir: "./projects/demo_cat"
+  known_body_length_m: null
+  device: "cpu"
+  precision: "fp32"
+
+ingest:
+  preserve_originals: true
+  extract_exif: true
+  compute_sha256: true
+  perceptual_dedup: true
+
+preprocess:
+  max_selected_frames: 24
+  min_selected_frames: 6
+  detector:
+    provider: "manual"
+    prompt: "cat."
+    box_threshold: 0.30
+    text_threshold: 0.25
+    bbox_expand_ratio: 0.08
+  segmenter:
+    provider: "manual"
+    checkpoint: null
+    keep_soft_matte: true
+  pose_estimator:
+    provider: "manual"
+    num_keypoints: 26
+    confidence_threshold: 0.10
+
+camera:
+  internal_convention: "opencv"
+  world_up: "+Y"
+  canonical_cat_forward: "+Z"
+  album:
+    model: "perspective"
+    optimize_focal: true
+    fov_prior_deg: 45.0
+    fov_min_deg: 20.0
+    fov_max_deg: 85.0
+
+initializer:
+  provider: "manual"
+  hypotheses_per_frame: 4
+  retain_mirrored_yaw_hypothesis: true
+  robust_shape_consensus: true
+  min_backend_confidence: 0.20
+
+cat_template:
+  template_path: "./assets/cat_template/cat_base.glb"
+  shape_space_path: "./assets/cat_template/shape_space.safetensors"
+  canonical_vertex_count: null
+  skeleton_version: "cat45-v1"
+
+fitting:
+  renderer: "pytorch3d"
+  rotation_representation: "rotation_6d"
+  robust_loss: "geman_mcclure"
+  outlier_reweight_every: 100
+  min_frame_weight: 0.05
+  checkpoint_every: 100
+  stages:
+    camera_root:
+      steps: 300
+      optimizer: "adam"
+      lr: 0.005
+      optimize: ["global_orient", "translation", "camera"]
+    pose:
+      steps: 800
+      optimizer: "adam"
+      lr: 0.002
+      optimize: ["pose", "camera"]
+    shared_shape:
+      steps: 1500
+      optimizer: "adam"
+      shape_lr: 0.0005
+      pose_lr: 0.0005
+      camera_lr: 0.0002
+  loss_weights:
+    keypoint: 25.0
+    silhouette_iou: 10.0
+    boundary: 5.0
+    dense_track: 2.0
+    photometric: 0.0
+    normal: 0.0
+    depth: 0.0
+    shape_prior: 0.1
+    pose_prior: 0.1
+    joint_limit: 1.0
+    temporal_velocity: 2.0
+    temporal_acceleration: 1.0
+    laplacian: 0.5
+    arap: 0.25
+    symmetry_unobserved: 0.1
+
+export:
+  format: "glb"
+  output_units: "meters"
+  metric_scale_if_unknown: "normalized_with_metadata"
+  include_fit_report: true
+
+licenses:
+  profile: "research"
+  require_registry_entry: true
+  allow_noncommercial_models: true
+  allow_agpl_adapters: false
+  vendor_third_party_weights: false
+
+evaluation:
+  heldout_view_fraction: 0.20
+  metrics:
+    - "keypoint_reprojection"
+    - "silhouette_iou"
+    - "mesh_integrity"
+

@@ -1,0 +1,128 @@
+manual:
+  provider: opencat3d/manual
+  code_license: project
+  weight_license: none
+  redistribution: true
+  allowed_profiles: [research, product]
+  sha256: null
+
+animer:
+  provider: luoxue-star/AniMer
+  code_license: MIT
+  weight_license: verify_before_use
+  redistribution: false
+  allowed_profiles: [research]
+  sha256: null
+
+prima:
+  provider: AdaptiveMotorControlLab/PRIMA
+  code_license: custom_modified_mit
+  weight_license: academic_noncommercial
+  redistribution: false
+  allowed_profiles: [research_noncommercial]
+  sha256: null
+
+sam2:
+  provider: facebookresearch/sam2
+  code_license: Apache-2.0
+  weight_license: verify_model_card
+  redistribution: false
+  allowed_profiles: [research, product]
+  sha256: null
+
+grounding_dino:
+  provider: IDEA-Research/GroundingDINO
+  code_license: Apache-2.0
+  weight_license: verify_model_card
+  redistribution: false
+  allowed_profiles: [research, product]
+  sha256: null
+
+catnet_deterministic_reid:
+  provider: opencat3d/catnet
+  adapter: deterministic
+  code_license: project
+  weight_license: none
+  redistribution: true
+  allowed_profiles: [research, product]
+  sha256: null
+
+megadescriptor_t_224:
+  provider: BVRA/MegaDescriptor-T-224
+  adapter: megadescriptor-t-224
+  code_license: verify_repository
+  weight_license: CC-BY-NC-4.0
+  redistribution: false
+  allowed_profiles: [research_noncommercial]
+  sha256: null
+  notes: "Animal Re-ID Swin-T feature backbone via timm hf-hub."
+
+megadescriptor_l_384:
+  provider: BVRA/MegaDescriptor-L-384
+  adapter: megadescriptor-l-384
+  code_license: verify_repository
+  weight_license: CC-BY-NC-4.0
+  redistribution: false
+  allowed_profiles: [research_noncommercial]
+  sha256: null
+  notes: "Animal Re-ID Swin-L feature backbone via timm hf-hub."
+
+miewid_msv3:
+  provider: conservationxlabs/miewid-msv3
+  adapter: miewid-msv3
+  code_license: verify_repository
+  weight_license: verify_model_card
+  redistribution: false
+  allowed_profiles: [research]
+  sha256: null
+  notes: "Wildlife Re-ID feature extractor via transformers AutoModel; 440x440 input."
+
+catnet_hybrid_megadescriptor_t:
+  provider: opencat3d/catnet+BVRA/MegaDescriptor-T-224
+  adapter: "hybrid:megadescriptor-t-224+deterministic"
+  code_license: mixed
+  weight_license: CC-BY-NC-4.0
+  redistribution: false
+  allowed_profiles: [research_noncommercial]
+  sha256: null
+  notes: "Recommended first external cat-focused recipe: animal backbone plus local coat/color branch."
+
+dust3r_dense_geometry:
+  provider: naver/DUSt3R
+  adapter: dense_evidence:dust3r
+  code_license: verify_repository
+  weight_license: verify_model_card
+  redistribution: false
+  allowed_profiles: [research]
+  sha256: null
+  notes: "Optional local dense geometry evidence adapter; never required by core tests."
+
+mast3r_dense_matching:
+  provider: naver/MASt3R
+  adapter: dense_evidence:mast3r
+  code_license: verify_repository
+  weight_license: verify_model_card
+  redistribution: false
+  allowed_profiles: [research]
+  sha256: null
+  notes: "Optional local dense matching evidence adapter; never required by core tests."
+
+monst3r_video_geometry:
+  provider: Junyi42/MonST3R
+  adapter: dense_evidence:monst3r
+  code_license: verify_repository
+  weight_license: verify_model_card
+  redistribution: false
+  allowed_profiles: [research]
+  sha256: null
+  notes: "Optional local dynamic-video geometry evidence adapter; never required by core tests."
+
+gaussian_splat_render_probe:
+  provider: graphdeco-inria/gaussian-splatting
+  adapter: dense_evidence:3dgs_render_probe
+  code_license: verify_repository
+  weight_license: none
+  redistribution: false
+  allowed_profiles: [research]
+  sha256: null
+  notes: "Optional local appearance render-probe evidence; final asset remains CatTemplate."

@@ -1,0 +1,831 @@
+{
+  "snapshot_date": "2026-10-26",
+  "manifest_scope": "Source/configuration/metadata/examples present before this manifest and PROVENANCE.md were added; generated caches excluded",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "577c2fa7f0df6e41db90f8d7b75c5521890c360f61ec6ffb2cfd6bcbc5fe342f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "README.md",
+      "sha256": "05a9d2f3d7d30b9adf218e63727a82e1ce9f2689bc5858c90f461401d88fd497",
+      "origin": "export adaptation"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "58949fdefc0f155093429fc90f359d242b7de17753296c0f9eaef4f12e2644e1",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "configs/album_high_quality.yaml",
+      "sha256": "bfed5d53bee4593f7497d64283649f798342a6628d2f316da7cd3288edfe8980",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "configs/default.yaml",
+      "sha256": "1a671d2cb059c476d67775fdb3982946dba4d0ccd0c6759b4fa6ab840c8669fb",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "configs/session.yaml",
+      "sha256": "7f8907bfd88bc005c0f4cca677910579d07c99adcff48f1a7dc5bd6e87c6f7a8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "examples/synthetic_overlay.png",
+      "sha256": "48670e14dd8f51d3db0593556960a47f5578040fbb55649a6ca7bfb602a97ffc",
+      "origin": "new portfolio documentation/example"
+    },
+    {
+      "path": "examples/synthetic_result.json",
+      "sha256": "6e864d3e66a2bb70a6b568808c3e5f013089d06d1753f0c1de7492dca91a6222",
+      "origin": "new portfolio documentation/example"
+    },
+    {
+      "path": "models/README.md",
+      "sha256": "f5713f0e57017b191041fbff4dbfacabcf90e1ccbcf28d61ea23e8a0fbd6cd27",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "models/registry.yaml",
+      "sha256": "99ae47fe98d7c65541f8e3b07aa56c01b77c4e5954296edb0f653c74624da123",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "9f48fb304356bc9dbec9df562f07f2f04c63664e6e6e53b5a178c236142f9f65",
+      "origin": "export adaptation"
+    },
+    {
+      "path": "scripts/improve_raw_job.py",
+      "sha256": "f4f4042d36c6e3f6ff6f089b4653f38a8c1bc42051f018f79d140d29344eeee8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/__init__.py",
+      "sha256": "45e1f586fd5f27c3734490c57fc5acef1658ffdf95badc6cfb484fc214a08638",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/active_learning.py",
+      "sha256": "006464558a81d909618de8508c3b17bddfdb9276485672880a59022618dcbbf6",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/assets3d.py",
+      "sha256": "ba545cc7a15242bd0df7842419a1c71be68cfe3d336a531a2008b4002fcd5850",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/benchmark.py",
+      "sha256": "96b92c0c0704a7fe9879040723e3fb06136af4ea29ce606f928c55aa446d2f1f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/consolidation.py",
+      "sha256": "38a784782b0d7420c9b016272943d04c062bac6e0ede1304c0d8b53739f2106d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/embedding/__init__.py",
+      "sha256": "9c9716e4992fd136a8652aee65761e29a0381a3c12d2da1419318fa13d640945",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/embedding/service.py",
+      "sha256": "2d580583d249a20c490767524b5fbbd6031c475c304c312d317dafd080ebfaf8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/eval/__init__.py",
+      "sha256": "a1727725a2126dae657b666c87a466124665b6412e63dd57d3623c02e5345813",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/eval/growth_aware.py",
+      "sha256": "e85a49f058db942ae65f9d6fe5d720bfcf046e8144d91f31c182eecf997674cf",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/eval/metrics.py",
+      "sha256": "c673e5b6f426c6d10250232a461d433faf871949b10fa972cd85f2a1178a7493",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/feedback.py",
+      "sha256": "c39253a71f034302e4d18b11844787995a1afa06b48b301f6e4fc715ae5f87f2",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/graph.py",
+      "sha256": "952823f12c0e0a036a63c1cb2c4646386144f0345d6501a0f9a2deba1c9283b6",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/index_registry.py",
+      "sha256": "fa8902f505457e35c73dfee4977123524c00c587e68ee816d024eaf57816c938",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/matcher/__init__.py",
+      "sha256": "d3ba19ca7622c481b05acfff1a0630db9e49e33d22b791a2c9f19568dd3453d8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/matcher/decision.py",
+      "sha256": "e7f9c9c5ee90f57d374ed914bb574d6c2dfc3413c3a4a6f2fa93cfb5440251c8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/matcher/faiss_index.py",
+      "sha256": "d6dbc24fe30a7a096f75abeda9fbb376f8c6f6a810a121e7ea2994ba1c71ca5c",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/matcher/rerank.py",
+      "sha256": "479dda3d9f127a01ea91b6517ae8cb89c0fa63b1ea3b242ffb18342090227148",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/metadata.py",
+      "sha256": "a0b0a705529ddbd704966e9d8ce16687bf4de36cd6615f6ae693953919838778",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/reid/__init__.py",
+      "sha256": "df2e5a8e2515cfc0d25a4b64291ce347db7ffd71b09d2b247e54572f72e083b0",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/reid/adapters.py",
+      "sha256": "9db03cbdd8dc7f7cd5c90bfd568e1c38e3027ad2b690f916d5d67d9092bdeb7e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/reid/backbones.py",
+      "sha256": "20095a85622c0096a100d3e3f8cd52bdeb5c35aea30df7198eae69cfa5ec90da",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/reid/data.py",
+      "sha256": "8591ea3076c0146a73a7514539766caa75746797d9024d1cd161c13f0a25a445",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/reid/model.py",
+      "sha256": "b5dab413f71b76a9ea784e1ca86e6a2b60116932bf5376a7415b055509abe36f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/reid/training.py",
+      "sha256": "f0ecd58cdef130c17902ce0e84cd520a6ad76d0a527ae786475c3dd54eada3b5",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/schema.py",
+      "sha256": "cc80d969d737ef0fb62ed6f365a31781ff2eda26796977513bcbfc7f4db80182",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/storage.py",
+      "sha256": "8ee585b7754b6f7c7009d20ff52b677c4741451bae03b50fcc751ad7503187c8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/catnet/temporal.py",
+      "sha256": "0c9d2833cf405beafb98e12cb0051df6d670548ba8b8fc2a85d32fa0fb949164",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/__init__.py",
+      "sha256": "0a8ed34550e5a7aafc2e1b2dcf22c9a1fd21e665f5d1e77d11f6d690431cb4d7",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/adapters/__init__.py",
+      "sha256": "a2d10f6d361df75dd4fd59ea38e0a9a69115c93b8b06c8a71d4dad01e1e2f37c",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/adapters/base.py",
+      "sha256": "83b3f73233396573bf4357018edcb4197c05769bb85f72dd021268aee587f0d5",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/adapters/dense_evidence.py",
+      "sha256": "3e39e3e3ffb04eeeffc0bb3569c28d104928e8be37eb57aff149687d50725e8d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/camera/__init__.py",
+      "sha256": "c11ee2b306f06f1fb3abba31ed6f1adcc1bc50d9675f089bf7dd22a940a0f4b5",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/camera/conventions.py",
+      "sha256": "81fe0c81914656376d593aa6e2f320b9916ea2d3e446e0b23c22695202766f3c",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/cli.py",
+      "sha256": "22efbb635fbe2c7b1e651c7fa7e0af923377895b7da6ea9a28e865c4ed7c6b5f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/config.py",
+      "sha256": "7827ea95ef4a55dc5d2cf9a34d953296925211a6e27d05a9d2d85effbc83c5e4",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/errors.py",
+      "sha256": "bab499f5ecfdce6da60a733aa725084b4f28b4948d8dd87b5e5e69517907414e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/__init__.py",
+      "sha256": "3f74a40868da5018a1b4173d4bf6584dc79b7cd8a69bf5a74759a2fb32cdfe76",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/acceptance.py",
+      "sha256": "2135d1c2b1710c5dd7beb70e672c324253f03ea275b7531fdefa58daff0d5a91",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/compliance.py",
+      "sha256": "da7fc2262abdd71f667ab83b31a52951075b3f353e8bcd853c38efb182bc53bb",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/coverage.py",
+      "sha256": "def79cbe7478f3b3539616af4e0b2d0535ead6150b8004a67fb7c1ee6699e361",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/evidence_gap.py",
+      "sha256": "004121c862e5e8bc6759b4de80cafdc33bb50999f994d399b2775eb9d2f43f83",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/face_texture_bake_comparison.py",
+      "sha256": "6ea03526695d104bba5b9cb17640359dbdf12bceccd51a6db5501c1043c6c5c1",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/face_texture_diagnostics.py",
+      "sha256": "b7dd7321f892d108b9851353f207950e1af09137af32a984272f731e1a86e7e2",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/face_texture_targets.py",
+      "sha256": "5c990bdc599fb2c618910fba46c6619a52942ebe9c1caf93f041d4dfecf505d5",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/face_uv_density.py",
+      "sha256": "a7d739b52c06a05b22c4630e3da77e7b0d45ae6242650b930a00872d366152bd",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/frame_set_supervisor.py",
+      "sha256": "b18863b653ae33c945fa5727815840689e459a38b337e925df85c17bc1a312f0",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/glb_face_features.py",
+      "sha256": "04f4ac53cf0d81cab98099fb6253c2a2ab860daf40603459655f8734f7596b65",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/heldout.py",
+      "sha256": "9e86bcf35a57138e30da8dd6317a21bb0a6d47d3f591b772842d3c0b43a3392f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/projection.py",
+      "sha256": "d8d7bdec1090927df1f1e43bc5175468676d558a010e5411df7f09c467fd0a67",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/raw.py",
+      "sha256": "fea2bda49540331617cc85c769a9601aa2e1afd5274922d78920abe6ec4b70e2",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/residuals.py",
+      "sha256": "70a29eca69641c51d82cb3469693ed24fbe95ac32812612e149dd5b34a283163",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/supervisor.py",
+      "sha256": "38376b77a83296f906b827e1408a03fbed1a232f979b4f39a49de9698db8123d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/synthetic.py",
+      "sha256": "45bca7efbee073e9e88938e7e2605bb29ca48da15ddda9e80d2b38a6580e78a5",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/texture_probe_regression.py",
+      "sha256": "591b0fe5dba8c105c6afee1d0cf6601b3a2940eea54c89f42bd33b00338f51df",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/turntable.py",
+      "sha256": "55e887500cd027d64b5d0528a875c4b9c7e62102330be628c0b3dff77be88df6",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/evaluation/validation.py",
+      "sha256": "eb961f3c8612ac0d6e94ad7488358aa61072b42f2535cc4066ba796adce89a23",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/export/__init__.py",
+      "sha256": "63fe433cdb8882cf3920e364e1eaa41d14d341c4e32513410a391bb394ebd077",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/export/mesh.py",
+      "sha256": "889e05c6e985e2f56a8a4ac710fae56a1a14cdbc5701bf72f9a8eff4f80fb43f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/export/skeleton.py",
+      "sha256": "975a43fac2b691ff0379ad9f87d007d973d7c0c23f99104f12cd2ca648d5e157",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/fitting/__init__.py",
+      "sha256": "ac57a1ffa5acf0e1889b37deee15d843c1e2c079d4c33804a49b7af604e5dba8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/fitting/losses.py",
+      "sha256": "12030e759359535f4744569b44a249aa62efbaed07b0002312b018ce3d4e9570",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/fitting/optimizer.py",
+      "sha256": "6dccab34ec29e06188b2c2827ae35f25388274ca04266bba87927d8767669af1",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/fitting/overlays.py",
+      "sha256": "0c387e309269c0935704af12aefd1ca2121d575525fc3c588781885f728b0d35",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/fur/__init__.py",
+      "sha256": "d5d1db950b26e4d0a7b799b910c4dadb3951d3abdfd489b155b4a335144e7a22",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/geometry/__init__.py",
+      "sha256": "ca8a379a5c99d5fe5d42db39f526c82f10990cb6d47db74019e8157a20a5984e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/geometry/detail.py",
+      "sha256": "b271566171047696c5e0c303cabaa2597b2c42c695aa72b12bfcf078be2ed64d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/ingest/__init__.py",
+      "sha256": "cc218d24f65affe722c919dcd1f00ecb35a5c41b015d2198229de4dd8775d71f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/ingest/images.py",
+      "sha256": "516e6259e65bef1650405a9f240391ae717860083611807536f9d283bd86c906",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/ingest/video.py",
+      "sha256": "b7fb266405ec8a221a0c0e5abaeacc2d159c55b8296d8ca7340438d2f7dd6b94",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/io/__init__.py",
+      "sha256": "eebde66a3524c9a3712c5f3b1a74c77458c47269f1c2672c46f0a46ae620d24b",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/io/cache.py",
+      "sha256": "90e077df314690f23b6d8022337ce9863962e365207d98aba26e66b9aca350c9",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/logging.py",
+      "sha256": "21db7785fd922be2698eb630161c22bc042ffc3e3fdb6c6556bcf079b51c1dde",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/pipeline.py",
+      "sha256": "b46eb20ef9a99b7ea19461bdcada73bb48ff010fca839a673e0e0e3481473e80",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/preprocess/__init__.py",
+      "sha256": "4ead55aa4bd84ae2e85866bbb31607a13c0bcb2cfe7835aa654584d03fd87c3a",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/preprocess/face_anchors.py",
+      "sha256": "bc9434688659b1e59d43988081b515ceef0e8e295d8460ec4bd45ec7f5a4758c",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/preprocess/frame_selection.py",
+      "sha256": "6bdbcc2614fc2e3b972ecae922734c0c04be3002152657c7a259af2bf751e023",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/preprocess/keypoints.py",
+      "sha256": "943d0a7fa2ad6914bff37eca4ab807c5b5c9eaef6fdb2bba9f513fabcfed10a4",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/preprocess/segmentation.py",
+      "sha256": "3e648393e8ce1cd7a70edc884198b9482c6a46c9613bcc57903a798ccc52dcb1",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/py.typed",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/registry.py",
+      "sha256": "ed235a6cad8ab9776cdc06661040680424a729e9ed7c070712d76f6970ee1d25",
+      "origin": "export adaptation"
+    },
+    {
+      "path": "src/opencat3d/rig/__init__.py",
+      "sha256": "eb9ac35d66f0ce3fd13b130304e583b01caa06be76115c6ee195e9fd18bc69ba",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/schemas.py",
+      "sha256": "98ed6b6c7610340ba445a4130e5a6648d7915e35a3b5cfecfba6d75cf41784f3",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/synthetic/__init__.py",
+      "sha256": "956cb90332473ce64f1b382e393b08edd6475684be0e1659b7936dab42adc1e9",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/synthetic/generator.py",
+      "sha256": "8cc638c73bd790276efb1ffca6ddbd878ec101da59c77eb2f1ec5801f283543d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/synthetic/renderer.py",
+      "sha256": "48b19d7f42210867494f72233db7d36da3d70ac6f37190f83400808dccab5304",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/template/__init__.py",
+      "sha256": "8f83c0ee2867bdb9c77437569a036d0c790aa215d5d2f074576ff76781f91603",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/template/cat_template.py",
+      "sha256": "64bc253c63a1f29917bb540e3b0fa285ef66970dbcfae4541bea813571fccfb2",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/template/skeleton.py",
+      "sha256": "6d04a5333e3ebb1aa1852202a62672f11b8f1ffeb40c046db6168bd9d01ad2c0",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/texture/__init__.py",
+      "sha256": "96561c45c796c741b2e1a97adae9e72dba2c1b904f01b3faca2f5a834a620462",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/textures/__init__.py",
+      "sha256": "ee9c1f56bec66dfa5d41428aa252bc26fd82a05edd6644826e427d3e1851efc5",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/textures/basecolor.py",
+      "sha256": "d3164a509908e6fabb4b4392e129dd2021a7cda99bef16a620e3666e451253a3",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/textures/pbr.py",
+      "sha256": "efd3fc0535dca0ac545bf1fe17943fdbd0b54ab3cd6d631adea6ba2d14abf394",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/textures/provenance.py",
+      "sha256": "a0a78de88bcbc8aeb184d1f1e340ebf6cb40d44cb1aef95680b5e1f4cca6f19a",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/versioning.py",
+      "sha256": "ae9725f2aada3080b1ede07969eb259408048d6b6e54b538809635d339b6a90f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "src/opencat3d/web.py",
+      "sha256": "8c7ba79540ba47fbc914c38fcaf5ff013c24058ae137d8b7c7a7e33dbc28c0f4",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_basecolor_accumulation.py",
+      "sha256": "95ae3bbb783e8d0f03a85189c547aca5c54fbcd6e3ebbd1b13063f3a4b9d4021",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_cache.py",
+      "sha256": "2c27fb1edd246a5c7903f3bc7f3703897f47178f0346b28108a0f65705ca8556",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_camera_conventions.py",
+      "sha256": "2db7cc4282443488363d80d35dd8a2d9d610252830cdad6d20d1f14dc5c7a54a",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_cat_template.py",
+      "sha256": "2ac439c18c414b67019081c9f8a814d0292c237df7793ef494b2396f65bb7da8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_3d_bridge.py",
+      "sha256": "9dcde31f9d08963d0027c6726a2fb92ab24d027c075ed6e62ae7b04adeea75e7",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_active_learning.py",
+      "sha256": "fc222f24de2673305c1b063cc5901168c632e9465dc1d598cda49f6010e66305",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_benchmark.py",
+      "sha256": "4e669510b92bcc0ce5da0296f489516d290b763957e885b254b6d4b2ebe69676",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_consolidation.py",
+      "sha256": "ddd4cd2a27dfb86aaededfa22393577cc71079ce870ad9eeee81d097b355d10c",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_embedding_matcher.py",
+      "sha256": "b99854d3d36a47a8d8576ec391b2be2635e96f12e7b6f6bd715cf0d47cd02b33",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_feedback_constraints.py",
+      "sha256": "e7490dca4979f1b66384dd5060348e02d3a73b8b92cd120901bb26b4369cbc0d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_growth_eval.py",
+      "sha256": "eab2d60ffa36eca52eee69d3e1cebacd39b11db86a5b4f6f7eaf03cf88fa749f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_index_registry.py",
+      "sha256": "c45a83c553448c1c428c3a8f448056cd058e14f4615c9a47e7b315545733118c",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_local_rerank.py",
+      "sha256": "bce5f2d4e3fa17e8d6e39b54b651f6fcf3fd4582f5346d60031721f28a73478a",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_metadata_posterior.py",
+      "sha256": "9f265952cd08f0d6bd894be652936bf9a5e92fd0c201e3f4f692ec586d996a91",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_reid_adapters.py",
+      "sha256": "9f9ed922079c99b85406ea8c1849bc55b8f23b639903653088551cafd24cc0f8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_reid_backbones.py",
+      "sha256": "773395a7ef7a23952a0bf1d1d34d44425bd17e81eae470ad6f9c51a821049e62",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_reid_training.py",
+      "sha256": "64597a31cd1aed4172d7a0697486241ab997b46c695b3934d3867b0290b7f508",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_catnet_schema_storage.py",
+      "sha256": "9988d211f0e79585557a0f8b9c7efec18d1e2cadb6d54274301bba90d1cf47cf",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_cli.py",
+      "sha256": "cb5309229d1dbed45b00876a56d72778186b240183716b42aad991ab954e74d8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_config_registry.py",
+      "sha256": "7fc126fa25e0b40b165ddf16e426477a33bede73c15f74d2b3b64eea067fe47a",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_dense_evidence_adapters.py",
+      "sha256": "f69a9401fa8f7a4ab8d5d615cdac1b274207f4c47111a1b642c8e18cddc576ec",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_acceptance.py",
+      "sha256": "6384c3cd0125cb6015a1adb4e20aeb4020b388565a03a562879f9d3b19bfc934",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_compliance.py",
+      "sha256": "25c4248b779a87da32bba031427611efb1114191284dfab47ef2252b39a93a3e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_coverage.py",
+      "sha256": "9871eb0915d0e68abf0b176448fed717991f7a00b174263f6b48ace710f9e97e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_evidence_gap.py",
+      "sha256": "7cbddc7fc268869d69ca0917f63e9455e0e5f6fa0b20624e7da0acc87fdde684",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_face_texture_bake_comparison.py",
+      "sha256": "642a4ab4659352b6252a1c78695dc856cb543a1151fed9d1f610aa9c022452d9",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_face_texture_diagnostics.py",
+      "sha256": "736874ab0fa747cbcb44f2a32fc51ece0e92095b153ff100a12cd37cb1d9e642",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_face_texture_targets.py",
+      "sha256": "be2694fec81c01a22bf56245aa141e034daddda22002d6b122253a2ecfcc137d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_face_uv_density.py",
+      "sha256": "4dc47ebb7ef44e7d045ad5658827b154de4f2ac53f942b058f10de8f6ed8f9ae",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_heldout.py",
+      "sha256": "cfd023cb79726794ac0c63640c46d2feb1e7666d56ef583df24f976de4a924d8",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_projection.py",
+      "sha256": "fcd8475bae2b9a7adaf40097ab640ee753a3ecefae30a4ed3921eff8ec00df31",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_raw.py",
+      "sha256": "e61243507fc5328dba16c9e193e22319d2cb1da2048271331d2b0b90e37a5d2b",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_residuals.py",
+      "sha256": "2757fb7d61ed99ea5cbe1f91feab97d142fa0ba38b37f505d11ab9bf19d0ba65",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_synthetic.py",
+      "sha256": "53eab2af5111b9079825a2a8ed7a9ecce03d29db24bc2f41df414fc12f332340",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_texture_probe_regression.py",
+      "sha256": "6eb7797300b6b701978c773b2b18f075cb92ddb6b0b17eb774aefdd531449642",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_evaluation_turntable.py",
+      "sha256": "284d6e34f37bbd44f16eed7a5182c119c74914bd17c6232e8907e58b370613ad",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_export_mesh.py",
+      "sha256": "1c20927efde3e7d6cba5132cc52003c9cfb7739717051648f0b84d0be5ac2370",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_face_anchors.py",
+      "sha256": "5a3a001b73b6462562a58fd4ea1ff33288e0439152ea078402bda73edf7a79a2",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_fitting_detail_losses.py",
+      "sha256": "2792d2193df9ebcda6c7cd95fe1f1212e1cddd044c0b8ca122872161da048ed1",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_frame_selection.py",
+      "sha256": "36d86ac532e293ca5ed9736a444529397583d725f21680f990592057ac3cfd47",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_frame_set_supervisor.py",
+      "sha256": "9a65f34867c3892fd617113b5c13b1100aab83b8642082f3477485b4667ec217",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_geometry_detail.py",
+      "sha256": "f0877ee75cb669f50e204b5b079c9bdf2a2bd9ba6696cd1e391e496861f25fd6",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_glb_face_features.py",
+      "sha256": "623f23e17283abcda0a207b2a95839f47236f658182ef4573d888bcddb510fc5",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_improve_raw_job.py",
+      "sha256": "2ccb855c26a59ae97aab781e0d7de4f614f99b9775bda48b10a534fecbd80c2b",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_ingest_images.py",
+      "sha256": "2020633f0e39afcc46847a130e1f5c5edcc7edecbe72de64015adf4119a29d47",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_ingest_video.py",
+      "sha256": "aeb31d96847f414d8d46cfaa20dab9d3dacc3b16aa72bf34776604f3d8c04a5d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_optimizer.py",
+      "sha256": "a8586d517712375aff6023b2df0d1b9ff494bad1c630713cfa75c6d1aaffbad5",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_pipeline.py",
+      "sha256": "57d995d7223d6ce9aeda1fcee5af87a14442e83e30c6b73eb3bf810a921a8f90",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_preprocess_keypoints.py",
+      "sha256": "ab59bd24387416a56666382fcebfc1d62ff424518c3def438916133defec6898",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_preprocess_segmentation.py",
+      "sha256": "d9dc1fb690848d39ca7d69587e2d6612c5f4253b7064d16ee5f47a1832478866",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_schemas.py",
+      "sha256": "a27529c2d2dd229a5ed8286b35576637917f0c54aa0d8501357de2386ebdd7de",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_supervisor.py",
+      "sha256": "6057e98efe1ac512ff2cff634a62319666a20345d7a0b1ffa1f364f4ead0308c",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_synthetic_generator.py",
+      "sha256": "fa71e986499e5ea9c78239796ec65ddd47a03a7735295631095807d14a82e905",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_texture_provenance.py",
+      "sha256": "df7d8b45e4e8665852aaa8902526bee4e62f5b13b5a8620f07c956a6b6173659",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_texture_source_patch_feedback.py",
+      "sha256": "682a0c66f0302e48d00382daba89db6c62d2f1b795fff6b8bf2f54bc19da6657",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_web.py",
+      "sha256": "6c4bdbcbd2edbed4605305d8554632956dfd021bdb2789f0f31390a61dc61972",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tests/unit/test_web_identity_review.py",
+      "sha256": "62b1f5c69aed4bd2030f574d2f162933fea671bf24792ddcb1411509ac2ac091",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "4f827e5d79c26a2012bd5bb3d1565554816ebe4dfc33fddf34c398d22ccd71b5",
+      "origin": "unchanged source"
+    }
+  ]
+}
